@@ -135,6 +135,7 @@ elif not CLUSTER_NAMES_AND_DESCRIPTIONS.is_file() :
 if CLUSTER_NAMES_AND_DESCRIPTIONS.is_file() :
     if st.button(f"Usuń analizę {CLUSTER_NAMES_AND_DESCRIPTIONS}"):
         os.remove(CLUSTER_NAMES_AND_DESCRIPTIONS)
+if MODEL_NAME.is_file() :
     if st.button(f"Usuń analizę {MODEL_NAME}"):
         os.remove(MODEL_NAME)
         
