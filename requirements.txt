@@ -6,4 +6,3 @@ streamlit-audiorecorder
 pydub
 pycaret
 pathlib
-os

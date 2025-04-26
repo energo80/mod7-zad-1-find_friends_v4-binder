@@ -132,10 +132,10 @@ elif not CLUSTER_NAMES_AND_DESCRIPTIONS.is_file() :
         print(" my_openai_api_key: ",st.session_state["my_openai_api_key"], 'ENV: ', env["OPENAI_API_KEY"])
 
 
-if CLUSTER_NAMES_AND_DESCRIPTIONS.is_file() :
-    if st.button(f"Usuń analizę {CLUSTER_NAMES_AND_DESCRIPTIONS}"):
-        os.remove(CLUSTER_NAMES_AND_DESCRIPTIONS)
-    if st.button(f"Usuń analizę {MODEL_NAME}"):
-        os.remove(MODEL_NAME)
+#if CLUSTER_NAMES_AND_DESCRIPTIONS.is_file() :
+#    if st.button(f"Usuń analizę {CLUSTER_NAMES_AND_DESCRIPTIONS}"):
+#        os.remove(CLUSTER_NAMES_AND_DESCRIPTIONS)
+#    if st.button(f"Usuń analizę {MODEL_NAME}"):
+#        os.remove(MODEL_NAME)
         
 #print("2 my_openai_api_key: ",st.session_state.my_openai_api_key)
